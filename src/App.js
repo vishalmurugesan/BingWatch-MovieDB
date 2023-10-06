@@ -46,7 +46,7 @@ function App() {
     <>
       <Navbar className='header' bg='info' expand="lg" variant="dark">
         <Container fluid>
-          <Navbar.Brand href="/home">
+          <Navbar.Brand href="/">
           <img 
               src={logo}
               width="200"
@@ -56,7 +56,7 @@ function App() {
             />
             
           </Navbar.Brand>
-          <Navbar.Brand  href="/home"> 
+          <Navbar.Brand  href="/"> 
           <div   className="d-flex align-items-center">
            
               <h1  style={{marginLeft:"300px" }}><kbd className='trending' style={{backgroundColor: "Black" , color:"#30D5C8"}}>TRENDING</kbd></h1>
